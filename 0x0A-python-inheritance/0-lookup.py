@@ -7,6 +7,6 @@ def lookup(obj):
         obj (object): the object to list.
 
     Returns:
-        list: the list of attributes.
+        list: the list of attributes and methods.
     '''
     return dir(obj)
